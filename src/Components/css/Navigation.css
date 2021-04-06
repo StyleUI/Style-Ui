@@ -1,0 +1,122 @@
+nav ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    list-style-type: none;
+}
+
+
+
+.item-align-auto{
+    float: none;
+    margin: 0 5px;
+}
+
+.item-align-right{
+    float: right;
+    margin-right: 20px;
+}
+
+
+.brand-name{
+    font-size: 18px;
+    font-weight: 900;
+    justify-content: space-around;
+    padding: 14px 16px;
+    color: purple;
+    font-style: italic;
+    cursor: pointer;margin-right: 20px;
+}
+
+.brand-name:hover{
+    color: red;
+    animation: cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+.brand-mg-1x{
+    margin: 0 20px 0 0;
+}
+
+.brand-mg-2x{
+    margin: 0 40px 0 0;
+}
+
+.brand-mg-3x{
+    margin: 0 60px 0 0;
+}
+
+// Nav Background colors
+
+.bg-dark {
+    background-color: rgb(14, 13, 13);
+    color: white;
+}
+
+.bg-green{
+    background-color: green;
+    color: white;
+}
+
+// Nav Alignments
+
+.lf {
+    float: left;
+}
+
+.rg {
+    float: right;
+}
+
+
+li a {
+    display: inline-block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+ul.dark-hover-bg a:hover {
+    background-color: rgb(107, 107, 107);
+}
+
+ul.green-hover-bg a:hover{
+    background-color: rgb(85, 141, 85);
+}
+
+ul.dark-hover-tx a:hover{
+    color: green;
+}
+
+
+
+
+.active-bg-red {
+    background-color: red;
+}
+
+.active-bg-green{
+    background-color: green;
+}
+
+.active-bg-purple{
+    background-color: purple;
+}
+
+.disable{
+    background-color: rgb(99, 96, 96);
+    pointer-events: none;
+}
+
+.mg-1{
+    margin: 0 10px;
+}
+
+.mg-2{
+    margin: 0 20px;
+}
+
+.mg-3{
+    margin: 0 30px;
+}
+
