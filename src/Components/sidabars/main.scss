@@ -1,0 +1,40 @@
+@import './configure';
+@import './mobile';
+
+.sidebar{
+    @include sidebar;
+}
+
+.sidebar .sidebar-heading{
+    color: white;
+    padding: 15px 50px;
+    border-bottom: 3px solid white;
+}
+
+.sidebar-grey-background{
+    background-color: grey;
+}
+
+@media screen and (max-width:$mobile) {
+    .sidebar{
+        display: none;
+    }
+}
+
+.sidebar .sidebar-input{
+    @include sidebar-input;
+}
+
+.sidebar .sidebar-link-style{
+    @include sidebar-link-style
+}
+
+.sidebar li{
+    list-style-type: none;
+}
+
+.sidebar .sidebar-items{
+    display: flex;
+    flex-direction: column;
+    
+}

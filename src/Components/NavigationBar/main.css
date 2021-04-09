@@ -1,0 +1,218 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.nav-style1 {
+  width: 100%;
+  min-height: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.nav-style2 {
+  width: 100%;
+  min-height: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.nav-style3 {
+  width: 100%;
+  min-height: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.nav-style4 {
+  width: 100%;
+  min-height: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+}
+
+.nav-grey {
+  background-color: grey;
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.nav-green {
+  background-color: #34af34;
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.nav-black {
+  background-color: black;
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+nav .logo {
+  color: white;
+  letter-spacing: 3pt;
+  padding: 20px;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+nav .navlink {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+nav li {
+  list-style-type: none;
+  padding: 25px;
+}
+
+.hover-color1-bg:hover {
+  background-color: #666464;
+}
+
+.hover-color2-bg:hover {
+  background-color: #016401;
+}
+
+.hover-color1-txt a:hover {
+  color: #36d0f7;
+}
+
+nav a {
+  text-decoration: none;
+  letter-spacing: 3pt;
+}
+
+.white-color {
+  color: white;
+}
+
+.red-color {
+  color: red;
+}
+
+.pink-color {
+  color: pink;
+}
+
+.purple-color {
+  color: purple;
+}
+
+.orange-color {
+  color: orange;
+}
+
+.blue-color {
+  color: blue;
+}
+
+.yellow-color {
+  color: yellow;
+}
+
+.olive-color {
+  color: olive;
+}
+
+.green-color {
+  color: green;
+}
+
+.black-color {
+  color: black;
+}
+
+.grey-color {
+  color: grey;
+}
+
+.teal-color {
+  color: teal;
+}
+
+.tomato-color {
+  color: tomato;
+}
+
+.wheat-color {
+  color: wheat;
+}
+
+.cyan-color {
+  color: cyan;
+}
+
+.burger {
+  display: none;
+  cursor: pointer;
+  margin: 12px 0;
+}
+
+.burger div {
+  width: 25px;
+  background-color: white;
+  height: 3px;
+  margin: 5px;
+}
+
+@media screen and (max-width: 800px) {
+  body {
+    overflow-x: hidden;
+  }
+  .navlink {
+    width: 200px;
+    position: absolute;
+    right: 0;
+    height: 88vh;
+    top: 10vh;
+    background-color: grey;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+    -webkit-transition: -webkit-transform 0.5 ease-in;
+    transition: -webkit-transform 0.5 ease-in;
+    transition: transform 0.5 ease-in;
+    transition: transform 0.5 ease-in, -webkit-transform 0.5 ease-in;
+  }
+  .navlink li {
+    opacity: 0;
+  }
+  .burger {
+    display: block;
+  }
+  .right {
+    margin-left: 50%;
+  }
+}
+/*# sourceMappingURL=main.css.map */
