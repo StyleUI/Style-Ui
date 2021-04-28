@@ -8,6 +8,23 @@
     box-sizing: border-box;
 }
 
+.input-type1{
+    position: relative;
+    top: 15px;
+    border-radius: 15px;
+    height: 30px;
+    padding: 20px
+}
+
+.input-type2{
+    position: relative;
+    top: 15px;
+    border-radius: 15px;
+    height: 30px;
+    width: 500px;
+    padding: 20px
+}
+
 //navbar styles
 
 .nav-style1{
@@ -39,6 +56,22 @@
 
 .nav-black{
     @include nav-background-color-black;
+}
+
+.nav-purple{
+    @include nav-background-color-purple;
+}
+
+.nav-orange{
+    @include nav-background-color-orange
+}
+
+.nav-peru{
+    @include nav-background-color-peru
+}
+
+.divider{
+    border-bottom: 2px solid white;
 }
 
 //Navigation bar logo
@@ -82,6 +115,64 @@ nav li{
 .hover-color1-txt{
     a:hover{
         color: $hover-text-color1;
+        transition: 0.5s;
+        font-weight: 800;
+    }
+}
+
+.hover-color2-txt{
+    a:hover{
+        color: red;
+        transition: 0.5s;
+        font-weight: 800;
+    }
+}
+
+.hover-color3-txt{
+    a:hover{
+        color: green;
+        transition: 0.5s;
+        font-weight: 800;
+    }
+}
+
+.hover-color4-txt{
+    a:hover{
+        color: orange;
+        transition: 0.5s;
+        font-weight: 800;
+    }
+}
+
+.hover-color5-txt{
+    a:hover{
+        color: purple;
+        transition: 0.5s;
+        font-weight: 800;
+    }
+}
+
+.hover-color6-txt{
+    a:hover{
+        color: white;
+        transition: 0.5s;
+        font-weight: 800;
+    }
+}
+
+.hover-color7-txt{
+    a:hover{
+        color: orangered;
+        transition: 0.5s;
+        font-weight: 800;
+    }
+}
+
+.hover-color8-txt{
+    a:hover{
+        color: pink;
+        transition: 0.5s;
+        font-weight: 800;
     }
 }
 
@@ -167,23 +258,29 @@ nav a{
     margin: 5px;
 }
 
+.mobile-view{
+    body{
+        display: none;
+    }    
+}
+
+
 @media screen and (max-width:$mobile) {
     body{
         overflow-x: hidden;
     }
     .navlink{
-        width: 200px;
+        width: 100%;
         position: absolute;
-        right: 0;
-        height: 88vh;
-        top: 10vh;
-        background-color: $secondary;
+        top: 10%;
+        justify-content: space-around;
+        background-color: black;
         display: flex;
         flex-direction: column;
         align-items: center;
         transform: translateX(100%);
-        transition: transform 0.5 ease-in;
     }
+
     .navlink li{
         opacity: 0;
     }

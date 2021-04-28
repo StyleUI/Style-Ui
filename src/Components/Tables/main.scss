@@ -1,0 +1,97 @@
+th {
+    padding: 20px;
+}
+
+td,
+th {
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+
+.center {
+    text-align: center;
+}
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
+.table-view {
+    position: relative;
+    border-collapse: collapse;
+    left: 5px;
+    top: 20px;
+    width: auto;
+    margin: 10px 10px;
+}
+
+.row-view-2 {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.row-view-3 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.row-view-4 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+// text colors
+
+table .color-white {
+    color: white;
+}
+
+// background-colors
+
+table .background-red {
+    background-color: red;
+}
+
+table .background-green {
+    background-color: green;
+}
+
+table .background-blue {
+    background-color: rgb(71, 71, 247);
+}
+
+table .background-orange {
+    background-color: orange;
+}
+
+// hover effect
+tr.hover-grey:hover {
+    background-color: rgb(216, 210, 210);
+}
+
+tr.hover-orange:hover {
+    background-color: rgb(247, 180, 55);
+}
+
+tr.hover-blue:hover {
+    background-color: rgb(83, 83, 247);
+}
+
+tr.hover-red:hover {
+    background-color: red;
+}
+
+tr.hover-coral:hover {
+    background-color: coral;
+}
+
+tr.hover-darkochid:hover {
+    background-color: darkorchid;
+}
+
+tr:nth-child(even) {
+    background-color: #d6d5d5;
+}

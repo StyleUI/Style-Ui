@@ -1,40 +1,153 @@
-@import './configure';
-@import './mobile';
+@import "./configure";
+@import "./mobile";
 
 .sidebar{
     @include sidebar;
 }
 
-.sidebar .sidebar-heading{
-    color: white;
+.sidebar-large{
+    @include sidebar-large;
+}
+
+.item-heading{
+    font-size: 20px;
+    margin: 10px 5px;
+}
+
+.sidebar-brand{
+    font-size: 25px;
+    letter-spacing: 2pt;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    padding: 40px 50px;
+}
+
+ .sidebar-heading {
     padding: 15px 50px;
+}
+
+// sidebar colors
+.sidebar-grey-background {
+    background-color: grey;
+    color: white;
+    border-bottom: 5px solid black;
+}
+
+.sidebar-dark-background {
+    background-color: black;
+}
+
+.sidebar-brown-background {
+    background-color: brown;
+}
+
+.sidebar-white-background {
+    background-color: rgb(241, 238, 238);
+}
+
+.sidebar-purple-background {
+    background-color: purple;
+}
+
+//link color
+
+.white-color{
+    color: white;
+    font-weight: 600;
+}
+
+.black-color{
+    color: black;
+}
+
+.green-color{
+    color: green;
+}
+
+// bottom devider
+
+.divider-white-1{
+    border-bottom: 1px solid white;
+}
+
+.divider-white-2{
+    border-bottom: 2px solid white;
+}
+
+.divider-white-3{
     border-bottom: 3px solid white;
 }
 
-.sidebar-grey-background{
-    background-color: grey;
+.divider-black-1{
+    border-bottom: 1px solid black;
 }
 
-@media screen and (max-width:$mobile) {
-    .sidebar{
+.divider-black-2{
+    border-bottom: 2px solid black;
+}
+
+.divider-black-3{
+    border-bottom: 3px solid black;
+}
+
+// sidebar mobile view
+@media screen and (max-width: $mobile) {
+    .sidebar {
         display: none;
     }
 }
 
-.sidebar .sidebar-input{
+//sidebar input
+.sidebar-input {
     @include sidebar-input;
 }
 
-.sidebar .sidebar-link-style{
-    @include sidebar-link-style
+//sidebar link style
+.sidebar-link-style {
+    @include sidebar-link-style;
 }
 
-.sidebar li{
+li {
     list-style-type: none;
 }
 
-.sidebar .sidebar-items{
+.sidebar-items {
     display: flex;
     flex-direction: column;
-    
+}
+
+// sidebar hover colors
+
+.text-hover-red {
+    a:hover {
+        color: red;
+    }
+}
+
+.text-hover-green a:hover{
+    color: green;
+}
+
+.text-hover-teal a:hover{
+    color: teal;
+}
+
+.text-hover-aqua a:hover{
+    color: aqua;
+}
+
+.text-hover-orange a:hover{
+    color: orange;
+}
+
+.text-hover-blue a:hover{
+    color: blue;
+}
+
+.text-hover-yellow a:hover{
+    color: yellow;
+}
+
+.text-hover-chocolate a:hover{
+    color:chocolate;
 }
