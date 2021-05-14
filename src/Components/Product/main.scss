@@ -1,6 +1,7 @@
 .product-view-type1{
-    display: grid;
-    grid-template-columns: auto auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
     padding: 20px;
     height: auto;
     margin: 10px 10px;

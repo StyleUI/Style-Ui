@@ -1,0 +1,147 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight: 500px;
+    letter-spacing: 1pt;
+    margin: 5px 5px;
+}
+
+hr{
+    margin-top: 20px;
+}
+
+p, small, a {
+    margin: 10px 0;
+    letter-spacing: 1pt;
+    text-decoration: none;
+}
+
+.signup_section{
+    display: unset;
+}
+
+.signup_section_disable{
+    display: none;
+}
+
+.signin_section{
+    display: unset;
+}
+
+.signin_section_disable{
+    display: none;
+}
+
+.grey{
+    background-color: rgb(228, 225, 225);
+}
+
+
+.form-group1 {
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 0 0 2px 0 black;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.bar-left {
+    border-top: 2px solid rgb(116, 113, 113);
+    width: 30%;
+    position: relative;
+    top: 22px;
+    left: 5%;
+}
+
+.bar-right {
+    border-top: 2px solid rgb(116, 113, 113);
+    width: 30%;
+    position: relative;
+    top: 22px;
+    left: 65%;
+}
+.form-group2, .form-group3 {
+    margin: 10px;
+    padding: 20px;
+    max-width: 700px;
+    box-shadow: 0 0 2px 0 black;
+    position: relative;
+    left: 27%;
+    @media (max-width: 750px) {
+        position: unset;
+        margin: 10px;
+        padding: 20px;
+        box-shadow: 0 0 2px 0 black;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+.form-name {
+    font-weight: 800;
+    text-align: center;
+    font-size: 26px;
+}
+
+.form-item {
+    margin-left: 6%;
+}
+
+.form-item-row {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: space-between;
+}
+
+.form-name1 {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.form-input1 {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.form-input2 {
+    padding: 10px;
+    width: 40%;
+    margin-top: 20px;
+    margin-right: 5%;
+}
+
+.form-input3 {
+    padding: 10px;
+    width: 95%;
+    margin-top: 20px;
+}
+
+.form-toggle-button{
+    padding: 20px;
+    text-align: center;
+    width: 50%;
+}
+
+.form-toggle-button.active{
+    padding: 20px;
+    text-align: center;
+    border: 1px solid black;
+    background-color: rgb(243, 23, 41);
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 1pt;
+    width: 50%;
+}
+
+

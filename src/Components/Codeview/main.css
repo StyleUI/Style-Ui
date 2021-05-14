@@ -1,42 +1,7 @@
-.work-area {
-  margin: 20px 5%;
-}
-
-.body {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.code-area {
-  margin: 20px 0;
-  height: auto;
-  width: 130%;
-  background-color: #1f1e1e;
-  border-radius: 5px;
-  color: white;
-  font-size: 16px;
-  font-weight: 400;
-  word-spacing: 0.5pt;
-}
-
-code-tag {
-  color: red;
-}
-
-code-id {
-  color: wheat;
-}
-
-code-id-name {
-  color: violet;
-}
-
-code-class {
-  color: blue;
-}
-
-code-class-name {
-  color: violet;
+pre code {
+  background-color: #eee;
+  border: 1px solid #999;
+  display: block;
+  padding: 20px;
 }
 /*# sourceMappingURL=main.css.map */

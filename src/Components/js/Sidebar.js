@@ -1,9 +1,10 @@
 import React from 'react'
+import '../sidabars/main.css'
 
 export default function Sidebar() {
     return (
         <div>
-            {/* <div className="sidebar sidebar-grey-background">
+            <div className="sidebar sidebar-grey-background">
                 <ul className="sidebar-items">
                     <h2 className="sidebar-heading"> Style-UI </h2>
                     <input type="text" name="" id="" placeholder=" search" className="sidebar-input" />
@@ -12,9 +13,9 @@ export default function Sidebar() {
                     <li className="sidebar-link-style"><a href="#"> project </a></li>
                     <li className="sidebar-link-style"><a href="#"> Privacy </a></li>
                 </ul>
-            </div> */}
+            </div>
 
-            <div className="sidebar sidebar-dark-background">
+            {/* <div className="sidebar sidebar-dark-background">
                 <ul className="sidebar-items">
                     <input type="text" name="" id="" placeholder=" search" className="sidebar-input" />
                     <h2 className="sidebar-heading white-color"> Style-UI </h2>
@@ -71,7 +72,7 @@ export default function Sidebar() {
                     <li className="sidebar-link-style divider-white-1 text-hover-aqua"><a href="#" className="white-color"> <i class="fas fa-project-diagram"></i> project </a></li>
                     <li className="sidebar-link-style divider-white-1 text-hover-aqua"><a href="#" className="white-color"><i class="fas fa-key"></i> Privacy </a></li>
                 </ul>
-            </div>
+            </div> */}
 
         </div> 
 

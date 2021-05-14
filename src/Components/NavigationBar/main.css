@@ -299,8 +299,17 @@ nav a {
   .navlink li {
     opacity: 0;
   }
+  .active, .navlink li {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1;
+    -webkit-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+  }
   .burger {
     display: block;
+    padding: 5px;
+    font-size: 20px;
   }
   .right {
     margin-left: 50%;

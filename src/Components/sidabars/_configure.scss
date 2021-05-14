@@ -1,8 +1,10 @@
 @mixin sidebar {
     height: 100vh;
-    width: 250px;
-    display: flex;
+    width: auto;
+    padding: 20px;
+    display: grid;
     float: left;
+    position: relative;
 }
 
 @mixin sidebar-large {
