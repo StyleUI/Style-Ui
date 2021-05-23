@@ -25,6 +25,7 @@ export function Navbar(probs) {
         <div>
             <div className="Navbar">
                 <nav className={probs.bg}>
+                    <img src={probs.Logo} className={probs.display} alt="logo"/>
                     <h3 className="logo">{probs.brand_name}</h3>
                     <img class={probs.brand_image} />
                     <ul className={mobile_menue}>

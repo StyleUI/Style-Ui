@@ -7,9 +7,13 @@ const Codeview = () => {
   <script></script>;
   return (
     <div>
-      <xmp>
-          <a href="hello"> hello </a>
-      </xmp>
+      <pre>
+        <code class="language-html">
+          <xmp>
+            <a href=""> hello </a>
+          </xmp>
+      </code>
+    </pre>
     </div>
   );
 };

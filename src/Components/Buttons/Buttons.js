@@ -5,9 +5,9 @@ import './main.css'
 export default function Button(probs) {
     return (
         <div>
-            <button className={probs.class}>{probs.children}</button>
-                {/* <button className="ui-button red-basic-button radius-r">Red</button>
-                <button className="ui-button orange-basic-button radius-r">Orange</button>
+        {/* <div className="button-menue"> */}
+                <button className={probs.class}>{probs.children}</button>
+                {/* <button className="ui-button orange-basic-button radius-r">Orange</button>
                 <button className="ui-button yellow-basic-button radius-r">Yellow</button>
                 <button className="ui-button blue-basic-button radius-r">Blue</button>
                 <button className="ui-button pink-basic-button radius-r">Pink</button>
@@ -73,8 +73,8 @@ export default function Button(probs) {
                 <button className="ui-button facebook-button radius-r"><i class="fab fa-facebook-f"></i> Facebook</button>
                 <button className="ui-button twitter-button radius-r"><i class="fab fa-twitter"></i> Twitter</button>
                 <button className="ui-button youtube-button radius-r"><i class="fab fa-youtube"></i> Youtube</button>
-                <button className="ui-button insta-button radius-r"><i class="fab fa-instagram"></i> Instagram</button>
-            </div> */}
+                <button className="ui-button insta-button radius-r"><i class="fab fa-instagram"></i> Instagram</button> */}
+            {/* </div> */}
         </div>
     )
 }

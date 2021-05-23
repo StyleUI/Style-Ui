@@ -25,6 +25,20 @@
     padding: 20px
 }
 
+.yes{
+    width: 150px;
+    height: auto;
+    margin: 5px
+}
+
+.no{
+    display: none;
+}
+
+.active{
+    background-color: green;
+}
+
 //navbar styles
 
 .nav-style1{

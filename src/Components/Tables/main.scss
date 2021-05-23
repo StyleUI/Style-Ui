@@ -5,7 +5,20 @@ th {
 td,
 th {
     padding: 10px;
+}
+
+.border-normal{
+   th, tr, td{
+        border: 1px solid black;
+    } 
+}
+
+.border{
     border-bottom: 1px solid black;
+}
+
+.border-none{
+    border-collapse: collapse;
 }
 
 .center {
