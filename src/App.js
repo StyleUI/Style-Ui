@@ -1,21 +1,18 @@
 import React from "react";
 import Button from "./Components/Buttons/Buttons";
-import Form from "./Components/Forms/forms";
-import Codeview from "./Components/Codeview/Codeview";
 import Navbar from "./Components/NavigationBar/Navbar";
 import NavItem from "./Components/NavigationBar/Navitem";
-import Product from "./Components/Product/Product";
-import Logo from "./Components/images/my-logo.svg";
-import Tables from "./Components/Tables/Tables";
-import ScrollBar from "./Components/ScrollBar/ScrollBar";
-import Spinner from "./Components/Spinner/Spinner";
-import Alert from "./Components/Alert/Alert";
+import Footer from "./Components/Footers/Footer";
 
 export default function App() {
   return (
     <>
       <div>
-      <Navbar bg="nav-style2 nav-black divider" brand_name="Style-UI" display="no">
+        <Navbar
+          bg="nav-style2 nav-black divider"
+          brand_name="Style-UI"
+          display="no"
+        >
           <NavItem
             item="home"
             as="/home"
@@ -46,9 +43,15 @@ export default function App() {
             <i class="fas fa-search"></i>
           </Button>
         </Navbar>
-        <Alert type="static-alert" color="primary">
-          <i class="fas fa-exclamation-circle"></i> Simple Primary Alert{" "}
-        </Alert>
+        
+        <Footer>
+          <div className="simple-footer">
+            <div className="bg-blue white">
+              The sample text goes here. This is the dummy text of the footer
+            </div>
+          </div>
+        </Footer>
+
       </div>
     </>
   );
