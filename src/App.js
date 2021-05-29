@@ -3,6 +3,9 @@ import Button from "./Components/Buttons/Buttons";
 import Navbar from "./Components/NavigationBar/Navbar";
 import NavItem from "./Components/NavigationBar/Navitem";
 import Footer from "./Components/Footers/Footer";
+import Product from "./Components/Product/Product";
+import Hover from "./Components/Hover/Hover";
+import Form from "./Components/Forms/forms";
 
 export default function App() {
   return (
@@ -43,15 +46,6 @@ export default function App() {
             <i class="fas fa-search"></i>
           </Button>
         </Navbar>
-        
-        <Footer>
-          <div className="simple-footer">
-            <div className="bg-blue white">
-              The sample text goes here. This is the dummy text of the footer
-            </div>
-          </div>
-        </Footer>
-
       </div>
     </>
   );
