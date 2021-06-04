@@ -1,0 +1,111 @@
+th {
+  padding: 20px;
+}
+
+td,
+th {
+  padding: 10px;
+}
+
+.border-normal th, .border-normal tr, .border-normal td {
+  border: 1px solid black;
+}
+
+.border {
+  border-bottom: 1px solid black;
+}
+
+.border-none {
+  border-collapse: collapse;
+}
+
+.center {
+  text-align: center;
+}
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
+
+.table-view {
+  position: relative;
+  border-collapse: collapse;
+  left: 5px;
+  top: 20px;
+  width: auto;
+  margin: 10px 10px;
+}
+
+.row-view-2 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
+}
+
+.row-view-3 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto;
+      grid-template-columns: auto auto auto;
+}
+
+.row-view-4 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto auto;
+      grid-template-columns: auto auto auto auto;
+}
+
+table .color-white {
+  color: white;
+}
+
+table .background-red {
+  background-color: red;
+}
+
+table .background-green {
+  background-color: green;
+}
+
+table .background-blue {
+  background-color: #4747f7;
+}
+
+table .background-orange {
+  background-color: orange;
+}
+
+tr.hover-grey:hover {
+  background-color: #d8d2d2;
+}
+
+tr.hover-orange:hover {
+  background-color: #f7b437;
+}
+
+tr.hover-blue:hover {
+  background-color: #5353f7;
+}
+
+tr.hover-red:hover {
+  background-color: red;
+}
+
+tr.hover-coral:hover {
+  background-color: coral;
+}
+
+tr.hover-darkochid:hover {
+  background-color: darkorchid;
+}
+
+tr:nth-child(even) {
+  background-color: #d6d5d5;
+}
+/*# sourceMappingURL=main.css.map */
