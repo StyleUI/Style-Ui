@@ -1,13 +1,10 @@
-<<<<<<< HEAD
-# Getting Started with Create React App
+# Style-Ui
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A react component library, makes your developmenet quicker and easier.
 
-## Syle-UI
+Visit [https://style-ui.com] for documantation..
 
-A react component library, make your developmenet quicker and easier
-
-Visit [https://style-ui.com] for more details.
+This project was not bootstrapped with [Create React App](https://github.com/facebook/create-react-app). 
 
 ## How To install
 
@@ -21,6 +18,4 @@ You will also see any lint errors in the console.
 
 
 
-=======
-# Style-Ui
->>>>>>> b7f3d6d6e4687b26f9edb8cafe67c9deac5366af
+
