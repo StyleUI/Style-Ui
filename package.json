@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "react-style-ui",
   "description": "Build in componenet library",
   "author": "Darshan Hegde",
@@ -51,4 +52,23 @@
     "type": "git",
     "url": "https://github.com/StyleUI/Style-Ui"
 }
+=======
+  "name": "style-ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StyleUI/Style-Ui.git"
+  },
+  "author": "darshan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/StyleUI/Style-Ui/issues"
+  },
+  "homepage": "https://github.com/StyleUI/Style-Ui#readme"
+>>>>>>> b7f3d6d6e4687b26f9edb8cafe67c9deac5366af
 }
